@@ -110,3 +110,5 @@ function printReport(data: TotalWarehouse): string {
 }
 
 console.log(printReport(totalData))
+
+export {}
