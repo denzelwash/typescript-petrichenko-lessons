@@ -81,13 +81,13 @@ function calculateAmountOfFigures<T extends IFigure>(figures: T[]): AmountOfFigu
 
   figures.forEach((f) => {
     switch (f.name) {
-      case 'rect':
+      case FigureName.RECT:
         res.squares++
         break
-      case 'triangle':
+      case FigureName.TRIANGLE:
         res.triangles++
         break
-      case 'circle':
+      case FigureName.CIRCLE:
         res.circles++
         break
       default:
