@@ -46,7 +46,7 @@ const customSliderOptions2: CustomSliderType<ISlider> = {
   arrows: true
 }
 
-function createCustomSlider(options: any): void {
+function createCustomSlider(options: ICustomSlider): void {
   if ('container' in options) {
     console.log(options)
   }

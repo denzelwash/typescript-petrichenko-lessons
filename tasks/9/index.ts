@@ -17,7 +17,7 @@ type FutureClassType = Omit<ClassType, 'startsAt'> & { willStartsAt: string }
 type ClientBaseType = {
   name: string
   age: string | number
-  gender: string
+  gender: 'male' | 'female'
 }
 
 type ClientCurrType = ClientBaseType & { timeLeft: string }
